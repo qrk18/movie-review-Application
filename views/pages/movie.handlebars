@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="/assets/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-fluid">
+            <h2>
+                {{{movieList.Title}}}
+            </h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src=" {{{movieList.Poster}}}" alt="{{{movieList.title}}}" width="300" height="450" />
+                </div>
+
+                <div class="col-md-4">
+                    <dl>
+                        <dt>
+                            <span><span class='movie-text'>Director：</span>
+                        </dt>
+                        <dd>
+                            <span><span class='movie-text-content-alt'>{{{movieList.Director}}}</span>
+                        </dd>
+                        <dt>
+                            <span><span class='movie-text'>Actor：</span>
+                        </dt>
+                        <dd>
+                            <span><span class='movie-text-content-alt'>{{{movieList.Actors}}}</span>
+                        </dd>
+                        <dt>
+                            <span><span class='movie-text'>Release Date:</span>
+                        </dt>
+                        <dt>
+                            <span><span class='movie-text-content-alt'>{{{movieList.Released}}}</span>
+                        </dt>
+                        <dt>
+                            <span><span class='movie-text'>Genre：</span>
+                        </dt>
+                        <dt>
+                            <span><span class='movie-text-content-alt'>{{{movieList.Genre}}}</span>
+                        </dt>
+
+                    </dl>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
